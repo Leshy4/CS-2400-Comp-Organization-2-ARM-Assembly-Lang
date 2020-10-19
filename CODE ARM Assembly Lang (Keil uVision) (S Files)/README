@@ -1,0 +1,15 @@
+**** Copy a "Basic TEMPLATE file" to code onto
+
+;;;; 			   PROGRAMMER:  Christopher Welch			DATES: ~2/20 - ~5/20
+;;;; Purpose: FULL COMPILATION of ARM Assembly Language		CS2400 Computer Organization II
+;;;;  ****** uVision Project == a Collection of S File(s) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+;;;;;;;;;;   ****** Connect to Specified Embedded System -> Write Code -> Build Code -> Debug Emulator (Can follow Values / Breakpoints) 
+;;;;;;;;;;  		CONTAINS CODE FOR ->
+;; Basic Entry Code / Branch Link / LR -> PC / Check String for Letter 'H'
+;; Flags / Math / Factorial ( Nieve -> Modified -> Link Register (LR) to fill the Program Counter (PC))
+;; Arrays / Address Incrementation (Find Value in Array) 
+;; Memory (Retrieval & Storage) / Suffixes / Floating Point Operations / Swap Contents with (E)OR(R) Or Exclusiv
+;; Load/Store Memory Base Update/Unchanged (LDM/STM) / Name Length / 
+;; OddSum (Read Array & Sum += Only Odd Numbers & Store in R3) / Nested Function Calls 
+;; Arithmetic Shift Right & Rotate Right / Copy Bits & Bit Masking (Final Code Exam) / Parity Bit
