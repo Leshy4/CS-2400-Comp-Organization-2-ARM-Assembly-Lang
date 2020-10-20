@@ -8,6 +8,6 @@ LANG: ARM Assembly          Selected Microcontroller:
 
 CONTAINS: Code (Keil), Notes, Worksheets, ...............................
 
-**Used by selecting a virtual microcontroller to test code.
+**Used by selecting a virtual microcontroller to test code.   ->   EMBEDDED SYSTEM: ARMCM4_FP
 
 **Can't just Run Code.  MUST Build, then use Debugger to Emulate the specified Embedded System.
