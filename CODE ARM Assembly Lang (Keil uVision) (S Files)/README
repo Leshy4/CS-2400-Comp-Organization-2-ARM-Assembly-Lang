@@ -3,13 +3,17 @@
 ;;;; 			   PROGRAMMER:  Christopher Welch			DATES: ~2/20 - ~5/20
 ;;;; Purpose: FULL COMPILATION of ARM Assembly Language		CS2400 Computer Organization II
 ;;;;  ****** uVision Project == a Collection of S File(s) 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-;;;;;;;;;;   ****** Connect to Specified Embedded System -> Write Code -> Build Code -> Debug Emulator (Can follow Values / Breakpoints) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+;;;;;;;;;;   ****** Connect to Specified Embedded System -> Write Code -> Build Code -> Debug Emulator (Can follow Values / Breakpoints) || Straight to Embedded Device
 ;;;;;;;;;;  		"TOTAL REFERENCE" CONTAINS CODE FOR ->
-;; Basic Entry Code / Branch Link / LR -> PC / Check String for Letter 'H'
-;; Flags / Math / Factorial ( Nieve -> Modified -> Link Register (LR) to fill the Program Counter (PC))
-;; Arrays / Address Incrementation (Find Value in Array) 
-;; Memory (Retrieval & Storage) / Suffixes / Floating Point Operations / Swap Contents with (E)OR(R) Or Exclusiv
-;; Load/Store Memory Base Update/Unchanged (LDM/STM) / Name Length / 
-;; OddSum (Read Array & Sum += Only Odd Numbers & Store in R3) / Nested Function Calls 
-;; Arithmetic Shift Right & Rotate Right / Copy Bits & Bit Masking (Final Code Exam) / Parity Bit
+;; Arrays -> Access & Store values with Memory Address Incrementation (For int's: originAddress[0] + 4 = originAddress[1]) / 
+;; Array Searching / Branch Link / LR -> PC (Link Register & Program Counter) /
+;; Check String for Letter 'H' / Flags (Negative,Zero,Carry,Overflow) / Math (Polynomial Eqn) / 
+;; Factorial ( Nieve -> Modified -> Link Register (LR) to fill the Program Counter (PC))
+;; Suffixes / Swap Contents with EOR->(XOR)/ Floating Point Operations & Area of Circle with Floats
+;; char[] = Strings access with by Address Incrementation [Size == Data Type] (Find Value in Array)  
+;; Looping in Arrays & more Memory Address manipulation / Memory (Retrieval & Storage == LDM & STM) / <- Load/Store Types: Pre-Indexing (Base Updated||Base Unchanged) / 
+;; Post-Indexing Base Updated / Pushing & Popping the Stack (w/Stack Pointer='SP')
+;; Name Length / OddSum (Read Array & Sum += Only Odd Numbers & Store in R3) / 
+;; Nested Function Calls / Arithmetic Shift Right & Rotate Right / 
+;; Copy Bits & Bit Masking & More Stack (Final Code Exam) / Parity Bit (1 Bit for Error Detection)
